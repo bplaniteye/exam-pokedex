@@ -37,6 +37,9 @@ pokemonThunder: Pokemon[] = [
       weakness: ['Ground']
     },
   ]
-
+  selectedPokemon: Pokemon;
+    selectPokemon(pokemon: Pokemon) {
+      this.selectedPokemon = pokemon;
+    }
 
 }

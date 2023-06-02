@@ -1,5 +1,6 @@
 <h2> {{ title }} </h2>
 
 <ul class="character">
-    <li *ngFor="let pokemon of pokemonFire"><span class="badge">{{ pokemon.id }}</span> {{ pokemon.name}}</li>
+    <li *ngFor="let pokemon of pokemonFire" [class.selected]="selectedPokemon==pokemon" (click)="selectPokemon(pokemon)">
+        <span class="badge" >{{ pokemon.id }}</span> {{ pokemon.name}}</li>
     </ul>

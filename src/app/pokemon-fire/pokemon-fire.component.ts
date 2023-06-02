@@ -42,5 +42,8 @@ title = 'Pokemon de type feu';
       weakness: ['Water', 'Ground', 'Rock']
     },]
 
-
+    selectedPokemon: Pokemon;
+    selectPokemon(pokemon: Pokemon) {
+      this.selectedPokemon = pokemon;
+    }
 }

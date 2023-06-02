@@ -40,4 +40,9 @@ export class PokemonPlantComponent implements OnInit {
         },
     ]
 
+    selectedPokemon: Pokemon;
+    selectPokemon(pokemon: Pokemon) {
+      this.selectedPokemon = pokemon;
+    }
+
 }
