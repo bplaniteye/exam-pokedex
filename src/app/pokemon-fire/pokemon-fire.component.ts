@@ -10,7 +10,7 @@ import Pokemon from '../types/pokemon.type';
 export class PokemonFireComponent implements OnInit {
 title = 'Pokemon de type feu';
   constructor() { 
-    this.pokemonFire = [];
+   
   }
 
   ngOnInit() {
