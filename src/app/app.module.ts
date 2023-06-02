@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { PokemonFireComponent } from './pokemon-fire/pokemon-fire.component';
 import { PokemonThunderComponent } from './pokemon-thunder/pokemon-thunder.component';
 import { PokemonPlantComponent } from './pokemon-plant/pokemon-plant.component';
+import { PokemonDetailsComponent } from './pokemon-details/pokemon-details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PokemonFireComponent,
     PokemonThunderComponent,
-    PokemonPlantComponent
+    PokemonPlantComponent,
+    PokemonDetailsComponent
   ],
   imports: [
     BrowserModule
