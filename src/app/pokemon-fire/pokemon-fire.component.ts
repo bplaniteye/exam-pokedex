@@ -1,10 +1,46 @@
-import { Component } from '@angular/core';
+import { Component , OnInit } from '@angular/core';
+import Pokemon from '../types/pokemon.type';
 
 @Component({
   selector: 'app-pokemon-fire',
   templateUrl: './pokemon-fire.component.html',
   styleUrls: ['./pokemon-fire.component.css']
 })
-export class PokemonFireComponent {
+
+export class PokemonFireComponent implements OnInit {
+title = 'Pokemon de type feu';
+  constructor() { 
+    this.pokemonFire = [];
+  }
+
+  ngOnInit() {
+  }
+
+  pokemonFire: Pokemon[] = [
+    {
+      id: 1,
+      name: 'Salamèche',
+      size: 0.6,
+      evolution: 'Charmeleon',
+      attack: ['Ember', 'Scratch', 'Tackle'],
+      weakness: ['Water', 'Ground', 'Rock']
+    },
+    {
+      id: 2,
+      name: 'Charmeleon',
+      size: 1.1,
+      evolution: 'Charizard',
+      attack: ['Ember', 'Scratch', 'Tackle', 'Flamethrower'],
+      weakness: ['Water', 'Ground', 'Rock']
+    },
+    {
+      id: 3,
+      name: 'Charizard',
+      size: 1.7,
+      evolution: 'None',
+      attack: ['Ember', 'Scratch', 'Tackle', 'Flamethrower', 'Fire Spin'],
+      weakness: ['Water', 'Ground', 'Rock']
+    },]
+
 
 }

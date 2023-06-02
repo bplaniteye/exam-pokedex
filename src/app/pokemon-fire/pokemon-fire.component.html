@@ -1,1 +1,5 @@
-<p>pokemon-fire works!</p>
+<h2> {{ title }} </h2>
+
+<ul class="character">
+    <li *ngFor="let pokemon of pokemonFire"><span class="badge">{{ pokemon.id }}</span> {{ pokemon.name}}</li>
+    </ul>
