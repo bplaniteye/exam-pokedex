@@ -6,6 +6,7 @@ import Pokemon from '../types/pokemon.type';
   styleUrls: ['./pokemon-thunder.component.css']
 })
 export class PokemonThunderComponent implements OnInit {
+  title = 'Pokemon de type foudre';
 constructor() { }
   ngOnInit() {
   }
@@ -36,6 +37,6 @@ pokemonThunder: Pokemon[] = [
       weakness: ['Ground']
     },
   ]
-  
+
 
 }
