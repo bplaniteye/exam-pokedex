@@ -4,3 +4,4 @@
     <li *ngFor="let pokemon of pokemonFire" [class.selected]="selectedPokemon==pokemon" (click)="selectPokemon(pokemon)">
         <span class="badge" >{{ pokemon.id }}</span> {{ pokemon.name}}</li>
     </ul>
+    <app-pokemon-details *ngIf="selectedPokemon" [pokemon]="selectedPokemon"></app-pokemon-details>
