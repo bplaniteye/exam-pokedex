@@ -1,24 +1,27 @@
 .selected {
     background-color: #d3dccf !important;
     color: white;
-    }  
-    .pokemon-thunder li {   
-    background-color: #EEE;   
-    }
+}
 
-    .pokemon-thunder li::before {
-    content: "⚡ "; 
-        }
+.pokemon-thunder li {
+    background-color: #EEE;
+}
 
-    .pokemon-thunder li.selected:hover {
+.pokemon-thunder li::before {
+    content: "⚡ ";
+}
+
+.pokemon-thunder li.selected:hover {
     background-color: #BBD8DC !important;
     color: white;
-    }
-    .pokemon-thunder li:hover {
+}
+
+.pokemon-thunder li:hover {
     color: #607D8B;
-    background-color: var(--primary-thunder-color);  
-    }  
-    .pokemon-thunder .badge {  
-    color: black;   
-    background-color: var(--primary-thunder-color); 
-    }
+    background-color: var(--primary-thunder-color);
+}
+
+.pokemon-thunder .badge {
+    color: black;
+    background-color: var(--primary-thunder-color);
+}

@@ -1,4 +1,4 @@
-import { Component , OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import Pokemon from '../types/pokemon.type';
 
 @Component({
@@ -8,9 +8,8 @@ import Pokemon from '../types/pokemon.type';
 })
 
 export class PokemonFireComponent implements OnInit {
-title = 'Pokemon de type feu';
-  constructor() { 
-   
+  title = 'Pokemon de type feu';
+  constructor() {
   }
 
   ngOnInit() {
@@ -18,35 +17,35 @@ title = 'Pokemon de type feu';
 
   pokemonFire: Pokemon[] = [
     {
-      id: 1,
-      picture: '../assets/images/pokeball.png',
+      id: 4,
+      picture: '../assets/images/salameche.png',
       name: 'Salamèche',
       size: 0.6,
-      evolution: 'Charmeleon',
-      attack: ['Ember', 'Scratch', 'Tackle'],
-      weakness: ['Water', 'Ground', 'Rock']
+      evolution: 'Reptincel',
+      attack: ['Brasier', 'Griffures', 'Plaquage'],
+      weakness: ['Eau', 'Sol', 'Roche']
     },
     {
-      id: 2,
-      picture: '../assets/images/pokeball.png',
-      name: 'Charmeleon',
+      id: 5,
+      picture: '../assets/images/reptincel.png',
+      name: 'Reptincel',
       size: 1.1,
-      evolution: 'Charizard',
-      attack: ['Ember', 'Scratch', 'Tackle', 'Flamethrower'],
-      weakness: ['Water', 'Ground', 'Rock']
+      evolution: 'Dracaufeu',
+      attack: ['Brasier', 'Griffures', 'Plaquage', 'Lance flammes'],
+      weakness: ['Eau', 'Sol', 'Roche']
     },
     {
-      id: 3,
-      picture: '../assets/images/pokeball.png',
-      name: 'Charizard',
+      id: 6,
+      picture: '../assets/images/dracaufeu.jpg',
+      name: 'Dracaufeu',
       size: 1.7,
-      evolution: 'None',
-      attack: ['Ember', 'Scratch', 'Tackle', 'Flamethrower', 'Fire Spin'],
-      weakness: ['Water', 'Ground', 'Rock']
+      evolution: '---',
+      attack: ['Brasier', 'Griffures', 'Plaquage', 'Lance flammes', 'Tourbillon de feu'],
+      weakness: ['Eau', 'Sol', 'Roche']
     },]
 
-    selectedPokemon: Pokemon;
-    selectPokemon(pokemon: Pokemon) {
-      this.selectedPokemon = pokemon;
-    }
+  selectedPokemon: Pokemon;
+  selectPokemon(pokemon: Pokemon) {
+    this.selectedPokemon = pokemon;
+  }
 }

@@ -1,4 +1,4 @@
-import { Component , OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import Pokemon from '../types/pokemon.type';
 @Component({
   selector: 'app-pokemon-thunder',
@@ -7,11 +7,11 @@ import Pokemon from '../types/pokemon.type';
 })
 export class PokemonThunderComponent implements OnInit {
   title = 'Pokemon de type foudre';
-constructor() { }
+  constructor() { }
   ngOnInit() {
   }
 
-pokemonThunder: Pokemon[] = [
+  pokemonThunder: Pokemon[] = [
     {
       id: 1,
       picture: '../assets/images/pokeball.png',
@@ -41,8 +41,7 @@ pokemonThunder: Pokemon[] = [
     },
   ]
   selectedPokemon: Pokemon;
-    selectPokemon(pokemon: Pokemon) {
-      this.selectedPokemon = pokemon;
-    }
-
+  selectPokemon(pokemon: Pokemon) {
+    this.selectedPokemon = pokemon;
+  }
 }

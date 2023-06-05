@@ -14,7 +14,9 @@
 
 .details-card-badge {
     display: inline-block;
+    width: 80px;
     font-size: small;
+    font-weight: bold;
     padding: 0.8em 0.7em 0 0.7em;
     line-height: 1em;
     position: relative;
