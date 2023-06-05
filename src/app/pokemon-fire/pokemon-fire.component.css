@@ -1,0 +1,25 @@
+.selected {
+    background-color: #d3dccf !important;
+    color: white;
+    }  
+    .pokemon-fire li {   
+    background-color: #EEE;   
+    }
+
+    .pokemon-fire li::before {   
+    content: "🔥 "; 
+        }
+
+    .pokemon-fire li.selected:hover {
+    background-color: #BBD8DC !important;
+    color: white;
+    }
+    .pokemon-fire li:hover {
+    color: #607D8B;
+    background-color: var(--primary-fire-color);  
+    }  
+    .pokemon-fire .badge {  
+    color: white;   
+    background-color: var(--primary-fire-color);    
+    }
+    

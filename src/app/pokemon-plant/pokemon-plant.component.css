@@ -1,0 +1,27 @@
+.selected {
+    background-color: #d3dccf !important;
+    color: white;
+}
+
+.pokemon-plant li {
+    background-color: #EEE;
+}
+
+.pokemon-plant li::before {
+    content: "🌿 ";
+}
+
+.pokemon-plant li.selected:hover {
+    background-color: #BBD8DC !important;
+    color: white;
+}
+
+.pokemon-plant li:hover {
+    color: #607D8B;
+    background-color: var(--primary-plant-color);
+}
+
+.pokemon-plant .badge {
+    color: white;
+    background-color: var(--primary-plant-color);
+}

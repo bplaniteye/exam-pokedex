@@ -19,6 +19,7 @@ title = 'Pokemon de type feu';
   pokemonFire: Pokemon[] = [
     {
       id: 1,
+      picture: '../assets/images/pokeball.png',
       name: 'Salamèche',
       size: 0.6,
       evolution: 'Charmeleon',
@@ -27,6 +28,7 @@ title = 'Pokemon de type feu';
     },
     {
       id: 2,
+      picture: '../assets/images/pokeball.png',
       name: 'Charmeleon',
       size: 1.1,
       evolution: 'Charizard',
@@ -35,6 +37,7 @@ title = 'Pokemon de type feu';
     },
     {
       id: 3,
+      picture: '../assets/images/pokeball.png',
       name: 'Charizard',
       size: 1.7,
       evolution: 'None',

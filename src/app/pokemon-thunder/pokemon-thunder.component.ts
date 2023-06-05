@@ -14,6 +14,7 @@ constructor() { }
 pokemonThunder: Pokemon[] = [
     {
       id: 1,
+      picture: '../assets/images/pokeball.png',
       name: 'Pikachu',
       size: 0.4,
       evolution: 'Raichu',
@@ -22,6 +23,7 @@ pokemonThunder: Pokemon[] = [
     },
     {
       id: 2,
+      picture: '../assets/images/pokeball.png',
       name: 'Raichu',
       size: 0.8,
       evolution: 'None',
@@ -30,6 +32,7 @@ pokemonThunder: Pokemon[] = [
     },
     {
       id: 3,
+      picture: '../assets/images/pokeball.png',
       name: 'Voltali',
       size: 0.8,
       evolution: 'None',

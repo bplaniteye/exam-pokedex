@@ -1,5 +1,14 @@
 <h2> {{ title }} </h2>
-
-<ul class="character">
-    <li *ngFor="let pokemon of pokemonPlant" [class.selected]="selectedPokemon==pokemon" (click)="selectPokemon(pokemon)"><span class="badge">{{ pokemon.id }}</span> {{ pokemon.name}}</li>
-    </ul>    <app-pokemon-details *ngIf="selectedPokemon" [pokemon]="selectedPokemon"></app-pokemon-details>
+<div class="container-row">
+    <div>
+        <ul class="character pokemon-plant">
+            <li *ngFor="let pokemon of pokemonPlant" [class.selected]="selectedPokemon==pokemon"
+                (click)="selectPokemon(pokemon)">
+                <span class="badge">{{ pokemon.id }}</span> {{ pokemon.name}}
+            </li>
+        </ul>
+    </div>
+    <div>
+        <app-pokemon-details *ngIf="selectedPokemon" [pokemon]="selectedPokemon"></app-pokemon-details>
+    </div>
+</div>

@@ -16,6 +16,7 @@ export class PokemonPlantComponent implements OnInit {
     pokemonPlant: Pokemon[] = [
         {
             id: 1,  
+            picture: '../assets/images/pokeball.png',
             name: 'Bulbizarre',
             size: 0.7,
             evolution: 'Herbizarre',
@@ -24,6 +25,7 @@ export class PokemonPlantComponent implements OnInit {
         },
         {
             id: 2,
+            picture: '../assets/images/pokeball.png',
             name: 'Herbizarre',
             size: 1,
             evolution: 'Florizarre',
@@ -32,6 +34,7 @@ export class PokemonPlantComponent implements OnInit {
         },
         {
             id: 3,
+            picture: '../assets/images/pokeball.png',
             name: 'Florizarre',
             size: 2,
             evolution: 'None',

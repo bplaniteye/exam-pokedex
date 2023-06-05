@@ -1,6 +1,29 @@
-<h2>Détails de {{pokemon.name}} </h2>
-<div>Id : {{ pokemon.id}} </div>
-<div>Taille : {{ pokemon.size}}</div>
-<div>Evolution : {{ pokemon.evolution}}</div>
-<div>Attaques : {{ pokemon.attack}}</div>
-<div>Points faibles :{{ pokemon.weakness}}</div>
+<div class="details-card">
+    <div>
+        <div class="details-card-id">{{pokemon.id}}</div>
+        <img src=" {{pokemon.picture}} " class="details-card-image" alt="{{pokemon.name}}">
+    </div>
+    <div class="container-row">
+        <span class="details-card-title"> {{pokemon.name}} </span>
+    </div>
+
+    <div>
+        <span class="details-card-badge">Taille</span>
+        <span>{{ pokemon.size}}</span>
+    </div>
+
+    <div>
+        <span class="details-card-badge">Evolution</span>
+        <span>{{ pokemon.evolution}}</span>
+    </div>
+
+    <div>
+        <span class="details-card-badge">Attaques</span>
+        <span>{{ pokemon.attack}}</span>
+    </div>
+
+    <div>
+        <span class="details-card-badge">Points faibles</span>
+        <span>{{ pokemon.weakness}}</span>
+    </div>
+</div>

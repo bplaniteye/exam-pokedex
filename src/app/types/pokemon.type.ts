@@ -5,4 +5,5 @@ export default class Pokemon {
     evolution: string;
     attack: string[];
     weakness: string[];
+    picture: string;
     }
